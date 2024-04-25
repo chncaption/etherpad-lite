@@ -4,7 +4,7 @@
 #
 # Author: muxator
 
-FROM node:lts-slim
+FROM node:20.12.2-slim
 LABEL maintainer="Etherpad team, https://github.com/ether/etherpad-lite"
 
 ARG TIMEZONE=
